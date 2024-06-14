@@ -58,3 +58,123 @@ In this project, residual diagnostics are conducted using Python's statsmodels a
 - **Forecasting:** The validated SARIMA model is used to predict future rainfall patterns, providing insights for the coming years.
 
 By meticulously following these steps, the project ensures that the SARIMA model is both accurate and reliable, making it a powerful tool for rainfall forecasting in Sri Lanka.
+
+### Linear Regression
+Linear Regression is a fundamental statistical technique used in this project to establish a relationship between rainfall and various predictors. This method helps in understanding and quantifying how changes in the predictors affect the amount of rainfall. Here's a detailed breakdown of how Linear Regression is applied in the project:
+
+#### Model Specification
+The first step in Linear Regression is specifying the model, which involves defining the dependent and independent variables:
+
+- **Dependent Variable:** In this project, the dependent variable is the amount of rainfall.
+- **Independent Variables:** Various factors that potentially influence rainfall are considered as predictors. These can include temperature, humidity, wind speed, atmospheric pressure, and other relevant meteorological data.
+
+**The linear regression model is specified as:**
+
+Rainfall=β 
+0
+​
+ +β 
+1
+​
+ Temperature+β 
+2
+​
+ Humidity+β 
+3
+​
+ Wind Speed+β 
+4
+​
+ Pressure+ϵ
+where 
+𝛽
+0
+β 
+0
+​
+  is the intercept, 
+𝛽
+1
+,
+𝛽
+2
+,
+𝛽
+3
+,
+𝛽
+4
+β 
+1
+​
+ ,β 
+2
+​
+ ,β 
+3
+​
+ ,β 
+4
+​
+  are the coefficients, and 
+𝜖
+ϵ is the error term.
+
+#### Parameter Estimation
+Once the model is specified, the next step is to estimate the parameters (coefficients) of the model. This is achieved using:
+
+- **Ordinary Least Squares (OLS):** OLS is a method to estimate the parameters by minimizing the sum of the squared differences between the observed and predicted values. The objective is to find the best-fitting line that minimizes the residual sum of squares (RSS).
+
+In the project, the OLS method is implemented using Python's scikit-learn library. The LinearRegression class is used to fit the model to the data:
+
+```
+from sklearn.linear_model import LinearRegression
+
+Define the model
+model = LinearRegression()
+
+# Fit the model to the data
+model.fit(X, y)
+
+# Extract the coefficients
+coefficients = model.coef_
+intercept = model.intercept_
+
+```
+
+Here, X represents the independent variables, and y is the dependent variable (rainfall).
+
+
+#### Model Evaluation
+Evaluating the performance of the linear regression model is crucial to ensure its accuracy and reliability. The project employs several metrics for this purpose:
+
+- **R-squared (R²):** R² measures the proportion of the variance in the dependent variable that is predictable from the independent variables. It ranges from 0 to 1, with higher values indicating better model fit.
+- **Mean Squared Error (MSE):** MSE is the average of the squared differences between the observed and predicted values. It provides a measure of the model's prediction accuracy.
+
+The evaluation is performed using Python's scikit-learn library:
+
+```
+
+from sklearn.metrics import mean_squared_error, r2_score
+
+# Make predictions
+predictions = model.predict(X_test)
+
+# Calculate R-squared
+r_squared = r2_score(y_test, predictions)
+
+# Calculate MSE
+mse = mean_squared_error(y_test, predictions)
+
+```
+
+#### Implementation Steps in the Project
+- **Data Collection and Preprocessing:** Collect and preprocess the historical weather data, ensuring that all relevant predictors are included and cleaned.
+- **Feature Selection:** Identify and select the most significant predictors that influence rainfall. This can be done using correlation analysis or other feature selection techniques.
+- **Model Specification:** Define the linear regression model with rainfall as the dependent variable and the selected predictors as independent variables.
+- **Parameter Estimation:** Use the OLS method to estimate the model coefficients.
+- **Model Training:** Train the linear regression model on the historical data.
+- **Model Evaluation:** Evaluate the model using R-squared and MSE to ensure it accurately predicts rainfall.
+- **Prediction:** Use the trained model to predict future rainfall based on the predictors.
+
+By following these steps, the project effectively employs Linear Regression to uncover relationships between rainfall and various meteorological factors, providing valuable insights and accurate predictions.
