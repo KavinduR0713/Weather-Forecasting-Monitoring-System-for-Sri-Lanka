@@ -343,6 +343,36 @@ By following these steps, the project effectively employs Support Vector Machine
 
 ##### Comparison of Actual rainfall and Predicted Rainfall in Jaffna District 
 
+**1.Year 2021 rainfall Comparison between Actual rainfall and Predicted rainfall** 
 
+![2021 SVMR](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/e7900897-05f5-480b-8e98-5975436bc794)
 
+**1.Year 2022 rainfall Comparison between Actual rainfall and Predicted rainfall**
 
+![2022 SVMR](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/a596b05d-1e07-490d-bfc4-80bec8b0b95c)
+
+**1.Year 2023 rainfall Comparison between Actual rainfall and Predicted rainfall**
+
+![2023 SVMR](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/9a1c1c4a-b856-4377-980b-f6005824feeb)
+
+### Mean Squared Error (MSE) Analysis
+MSE is the average of the squared differences between the observed actual outcomes and the outcomes predicted by the model. It is a critical measure of a model's accuracy, with lower values indicating better performance.
+
+#### MSE Comparison
+- **SARIMA:** The MSE values for SARIMA were the lowest across all districts, indicating its superior ability to predict rainfall accurately. The model's consideration of both trend and seasonality contributed to its minimal prediction errors
+
+- **Linear Regression:** The MSE values were higher compared to SARIMA, reflecting the model's limitations in capturing complex seasonal patterns. This resulted in larger discrepancies between the observed and predicted rainfall values.
+
+- **SVR:** While SVR showed better performance than Linear Regression in some regions, its MSE values were still higher than those of SARIMA. SVR's ability to handle nonlinear relationships improved its accuracy, but it was not as consistent as SARIMA across all districts.
+
+#### Regional Performance
+A detailed analysis of MSE across different districts further highlights the effectiveness of each model:
+   - **Coastal Regions:** SARIMA achieved the lowest MSE, accurately predicting seasonal rainfall patterns influenced by monsoons.
+   - **Inland Regions:** Both SARIMA and SVR performed well, but SARIMA maintained a lower MSE, especially in regions with distinct seasonal trends.
+   - **Overall:** The consistency of low MSE values for SARIMA across various districts established it as the most reliable model for rainfall prediction in Sri Lanka.
+
+The comprehensive comparison and analysis using MSE clearly indicate that the SARIMA model is the most effective tool for predicting rainfall in Sri Lanka. Its ability to accurately model both trend and seasonality makes it the primary choice for future predictions. The detailed visualizations and statistical metrics provide strong evidence of SARIMA's superior performance, ensuring reliable and accurate rainfall forecasts.
+
+The project's results underscore the importance of choosing the right model for time series forecasting, and SARIMA's robustness in handling the unique characteristics of rainfall data in Sri Lanka makes it an invaluable tool for stakeholders in agriculture, resource management, and disaster preparedness.
+
+![MSE](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/7d192e97-9448-4dca-8bc7-3332ca20fbcd)
