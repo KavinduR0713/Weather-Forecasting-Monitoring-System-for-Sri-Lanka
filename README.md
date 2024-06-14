@@ -385,10 +385,12 @@ The project's results underscore the importance of choosing the right model for 
 
 ## Weather Forecasting Monitoring System
 
-![2](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/2e1402e5-5c4c-4b1a-8beb-13b43844535f)
+![1](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/78d2337c-4e73-4cb4-910c-19f6b42b8df6)
 
-![3](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/7af68dfb-72d9-408d-b760-bbb597c9439b)
+![2](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/9650b9a1-a6ef-4bc0-8ca6-08c39ccce037)
 
-![4](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/e85adc67-9ddd-46c1-b376-07b4753e22c9)
+![3](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/1d385660-7b70-44db-9f6d-313ed569fbc1)
 
-![1](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/ba73da2c-d399-4798-959e-1370991d89e3)
+![4](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/1e40b311-3f39-4d09-aef3-265c3850f81f)
+
+
