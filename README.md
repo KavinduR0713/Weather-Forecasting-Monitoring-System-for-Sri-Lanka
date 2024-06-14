@@ -376,3 +376,19 @@ The comprehensive comparison and analysis using MSE clearly indicate that the SA
 The project's results underscore the importance of choosing the right model for time series forecasting, and SARIMA's robustness in handling the unique characteristics of rainfall data in Sri Lanka makes it an invaluable tool for stakeholders in agriculture, resource management, and disaster preparedness.
 
 ![MSE](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/7d192e97-9448-4dca-8bc7-3332ca20fbcd)
+
+
+## Results
+- The comprehensive comparison and analysis clearly indicate that the SARIMA model is the most effective tool for predicting rainfall in Sri Lanka. Its ability to accurately model both trend and seasonality makes it the primary choice for future predictions. The detailed visualizations and statistical metrics provide strong evidence of SARIMA's superior performance, ensuring reliable and accurate rainfall forecasts.
+
+- The project's results underscore the importance of choosing the right model for time series forecasting, and SARIMA's robustness in handling the unique characteristics of rainfall data in Sri Lanka makes it an invaluable tool for stakeholders in agriculture, resource management, and disaster preparedness.
+
+## Weather Forecasting Monitoring System
+
+![2](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/2e1402e5-5c4c-4b1a-8beb-13b43844535f)
+
+![3](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/7af68dfb-72d9-408d-b760-bbb597c9439b)
+
+![4](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/e85adc67-9ddd-46c1-b376-07b4753e22c9)
+
+![1](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/ba73da2c-d399-4798-959e-1370991d89e3)
