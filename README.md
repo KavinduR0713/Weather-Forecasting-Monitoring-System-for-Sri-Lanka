@@ -59,6 +59,31 @@ In this project, residual diagnostics are conducted using Python statsmodels and
 
 By meticulously following these steps, the project ensures that the SARIMA model is both accurate and reliable, making it a powerful tool for rainfall forecasting in Sri Lanka.
 
+#### Results of Time Series Analysis - SARIMA
+
+##### Colombo District Actual Rainfall and Predicted Rainfall using Time Series Analysis - SARIMA
+
+![Colombo_ TimeSeries_Forecasting_Values](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/413d0f59-fea2-43dc-8db3-b69ccf9c1c9b)
+
+##### Time Series Analysis SARIMA Forecasting plot for Colombo district
+
+![Colombo_ TimeSeries_Forecasting_Plot](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/0ce7ed96-cbf3-4f98-b6f6-31b333c00255)
+
+##### Comparison of Actual rainfall and Predicted Rainfall in Colombo District
+
+**1. Year 2021 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2021_Time Series](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/903c8a17-9acf-43d8-b1b2-e190ecfd3c63)
+
+**1. Year 2022 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2022_Time Series](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/9e647a86-5435-46e4-8286-dc233cf04060)
+
+**1. Year 2023 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2023_Time Series](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/3b652159-cdfd-4690-9730-f5165990d379)
+
+
 ### Linear Regression
 Linear Regression is a fundamental statistical technique used in this project to establish a relationship between rainfall and various predictors. This method helps in understanding and quantifying how changes in the predictors affect the amount of rainfall. Here's a detailed breakdown of how Linear Regression is applied in the project:
 
@@ -179,6 +204,30 @@ mse = mean_squared_error(y_test, predictions)
 
 By following these steps, the project effectively employs Linear Regression to uncover relationships between rainfall and various meteorological factors, providing valuable insights and accurate predictions.
 
+#### Results of Linear Regression Analysis
+
+##### Anuradhapura District Actual Rainfall and Predicted Rainfall using Linear Regression Analysis
+![Anuradhapura_Regression_Forecasting_Value](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/ceca5537-9935-4e5f-8d39-e21427c5bb1a)
+
+##### Scatter plot for Anuradhapura district
+- scatter plot shows the relationship between Anuradhapura district’s Actual Rainfall and predicted Rainfall using Linear Regression Analysis.
+![Anuradhapura_Regression_Forecasting_Plot](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/2a6f45e9-2ad2-4b51-a90e-48054d4470e5)
+
+##### Comparison of Actual rainfall and Predicted Rainfall in Anuradhapura District
+
+**1. Year 2021 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2021_Regression](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/de7a35cf-9364-4127-9a2d-c606cffc0688) 
+
+**2. Year 2022 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2022_Regression](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/7e2685c1-f47c-4303-83d1-7b03d1541899)
+
+**3. Year 2023 rainfall Comparison between Actual rainfall and Predicted rainfall.**
+
+![2023_Regression](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/de3c89ef-7fbb-42d7-ac4b-030466ef16a2) 
+
+
 ### Support Vector Machine Regression (SVR)
 Support Vector Machine Regression (SVR) is a powerful technique used in this project to handle nonlinear relationships in the rainfall data. SVR is particularly useful when the relationship between predictors and the dependent variable is complex and not well captured by linear models. Here’s a detailed breakdown of how SVR is utilized in this project:
 
@@ -285,5 +334,15 @@ Here, param_grid contains the hyperparameters to be tuned, and GridSearchCV perf
 - **Prediction:** Use the tuned and trained SVR model to predict future rainfall based on the predictors.
 
 By following these steps, the project effectively employs Support Vector Machine Regression to capture and predict complex nonlinear relationships in the rainfall data, providing accurate and reliable forecasts.
+
+#### Results of Support Vector Machine Regression analysis
+
+##### Jaffna District Actual Rainfall and Predicted Rainfall using Support Vector Machine Regression analysis.
+
+![Jaffna_RandomForestRegressor_Value](https://github.com/KavinduR0713/Weather-Forecasting-Monitoring-System-for-Sri-Lanka/assets/105490780/29269071-4df7-4ae7-ba99-d3b1a1bf4108)
+
+##### Comparison of Actual rainfall and Predicted Rainfall in Jaffna District 
+
+
 
 
